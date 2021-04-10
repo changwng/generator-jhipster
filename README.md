@@ -1,3 +1,43 @@
+## javascript 생성 부분 찾기
+### ts.service 생성 부분
+  vue.js templeate
+  generator-jhipster\generators\entity-client\templates\vue\src\main\webapp\app\entities\
+   entity.service.ts.ejs
+   integration/entity/entity.spec.ts
+
+   - D:\changwng\JHipster\core\generator-jhipster\generators\entity-client\index.js에서 시작됨
+   -  // Public API method used by the getter and also by Blueprints
+   -  files.js writeClientFiles  generator-base.js writeFilesToDisk
+##JHipster --help
+``` jhipster
+app                            [Default] Create a new JHipster application based on the selected options
+  aws                            Deploy the current application to Amazon Web Services
+  aws-containers                 Deploy the current application to Amazon Web Services using ECS
+  azure-app-service              Deploy the current application to Azure App Service
+  azure-spring-cloud             Deploy the current application to Azure Spring Cloud
+  ci-cd                          Create pipeline scripts for popular Continuous Integration/Continuous Deployment tools
+  cloudfoundry                   Generate a `deploy/cloudfoundry` folder with a specific manifest.yml to deploy to Cloud Foundry
+  docker-compose                 Create all required Docker deployment configuration for the selected applications
+  entity [name]                  Create a new JHipster entity: JPA entity, Spring server-side components and Angular client-side components
+  export-jdl [jdlFile]           Create a JDL file from the existing entities
+  gae                            Deploy the current application to Google App Engine
+  heroku                         Deploy the current application to Heroku
+  import-jdl [jdlFiles...]       Create entities from the JDL file/content passed in argument.
+    By default everything is run in parallel. If you like to interact with the console use '--interactive' flag.
+  info                           Display information about your current project and system
+  kubernetes|k8s                 Deploy the current application to Kubernetes
+  kubernetes-helm|k8s-helm       Deploy the current application to Kubernetes using Helm package manager
+  kubernetes-knative|knative     Deploy the current application to Kubernetes using knative constructs
+  languages [languages...]       Select languages from a list of available languages. The i18n files will be copied to the /webapp/i18n folder
+  openshift                      Deploy the current application to OpenShift
+  spring-service|service [name]  Create a new Spring service bean
+  spring-controller [name]       Create a new Spring controller
+  openapi-client                 Generates java client code from an OpenAPI/Swagger definition
+  upgrade                        Upgrade the JHipster version, and upgrade the generated application
+  upgrade-config                 Upgrade the JHipster configuration
+  completion                     Print command completion script
+```
+
 [![Logo][jhipster-image]][jhipster-url]
 
 [![NPM version][npm-image]][npm-url] [![Downloads][npmcharts-image]][npmcharts-url] [![Gitter][gitter-badge-image]][gitter-badge-url]
