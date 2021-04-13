@@ -1,4 +1,5 @@
 ## javascript 생성 부분 찾기
+  - EJS는 Embedded Javascript의 약자로 node JS의 페키지 이름이기도 하고 확장자 이
 ### ts.service 생성 부분
   vue.js templeate
   generator-jhipster\generators\entity-client\templates\vue\src\main\webapp\app\entities\
@@ -8,6 +9,8 @@
    - D:\changwng\JHipster\core\generator-jhipster\generators\entity-client\index.js에서 시작됨
    -  // Public API method used by the getter and also by Blueprints
    -  files.js writeClientFiles  generator-base.js writeFilesToDisk
+#### C:\_springjpa\jHipster\generator-jhipcw\utils 에 entityApiUrl이 있다 : prepareEntityForTemplates
+   - entity.js ==  entityWithConfig.entityApiUrl
 ##JHipster --help
 ``` jhipster
 app                            [Default] Create a new JHipster application based on the selected options
