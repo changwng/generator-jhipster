@@ -186,7 +186,7 @@ function prepareFieldForTemplates(entityWithConfig, field, generator) {
       field.liquibaseAutoIncrement = true;
       field.jpaGeneratedValue = false;
     } else {
-      const defaultGenerationType = entityWithConfig.prodDatabaseType === 'mysql' ? 'identity' : 'sequence';
+      const defaultGenerationType = ( entityWithConfig.prodDatabaseType === 'mysql' || entityWithConfig.prodDatabaseType === 'postgresql' ) ? 'identity' : 'sequence';
       field.jpaGeneratedValue = field.jpaGeneratedValue || field.fieldType === 'Long' ? defaultGenerationType : true;
       if (field.jpaGeneratedValue === 'identity') {
         field.liquibaseAutoIncrement = true;
